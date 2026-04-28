@@ -30,6 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
+<img width="1920" height="1440" alt="single-price-grid-component-shots" src="https://github.com/user-attachments/assets/d77af999-ce2a-4a74-a939-3026fd18cc20" />
+
 ### Links
 
 - Solution URL: [View Code](https://github.com/anggelserrato/fm-single-price-grid-component)
