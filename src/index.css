@@ -1,0 +1,63 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-white: hsl(0, 0%, 100%);
+  --color-gray-500: hsl(218, 22%, 67%);
+  --color-teal-500: hsl(179, 62%, 43%);
+  --color-teal-400: hsl(179, 48%, 52%);
+  --color-teal-100: hsl(204, 43%, 93%);
+  --color-green-400: hsl(71, 73%, 54%);
+  --font-karla: 'Karla', sans-serif;
+  --spacing-100: 8px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-500: 40px;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-karla);
+  }
+}
+
+@utility text-preset-1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 115%;
+  letter-spacing: -0.4px;
+}
+
+@utility text-preset-2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 115%;
+  letter-spacing: -0.25px;
+}
+
+@utility text-preset-3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 115%;
+  letter-spacing: -0.25px;
+}
+
+@utility text-preset-4-bold {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: -0.25px;
+}
+
+@utility text-preset-4-regular {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 165%;
+  letter-spacing: -0.5px;
+}
+
+@utility text-preset-5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: 0px;
+}
