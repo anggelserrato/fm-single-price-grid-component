@@ -36,21 +36,22 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
+- CSS custom properties (used in @theme)
+- Flexbox
+- [Tailwind CSS v4](https://tailwindcss.com/) - Utility-first CSS framework
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Google Fonts](https://fonts.google.com/) - For typography
+- [Vite](https://vitejs.dev/) - Frontend build tool
+- [Prettier](https://prettier.io/) - For consistent code formatting
+- [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) - For CSS classes sorting
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Shots.so](https://shots.so/) - A fantastic tool for creating beautiful and professional screenshots of your websites.
+- [Squoosh.app](https://squoosh.app/) - An amazing image optimizer that helps you compress images without losing quality, making your site load faster.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [serrato.me](https://www.serrato.me)
+- Frontend Mentor - [@anggelserrato](https://www.frontendmentor.io/profile/anggelserrato)
