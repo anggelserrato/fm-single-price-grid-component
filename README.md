@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [View Code](https://github.com/anggelserrato/fm-single-price-grid-component)
-- Live Site URL: [Live Site](https://fm-single-price-grid-component-eight.vercel.app/)
+- Live Site URL: [Live Site](https://fm-single-price-grid-component-jet.vercel.app/)
 
 ## My process
 
