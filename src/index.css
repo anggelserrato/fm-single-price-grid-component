@@ -1,5 +1,22 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-display: swap;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/karla-v33-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/karla-v33-latin-700.woff2') format('woff2');
+}
+
+/* https://tailwindcss.com/docs/theme#font-family */
 @theme {
   --color-white: hsl(0, 0%, 100%);
   --color-gray-500: hsl(218, 22%, 67%);
@@ -7,7 +24,9 @@
   --color-teal-400: hsl(179, 48%, 52%);
   --color-teal-100: hsl(204, 43%, 93%);
   --color-green-400: hsl(71, 73%, 54%);
-  --font-karla: 'Karla', sans-serif;
+  --font-sans:
+    'Karla', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --spacing-100: 8px;
   --spacing-200: 16px;
   --spacing-300: 24px;
@@ -15,8 +34,11 @@
 }
 
 @layer base {
+  html {
+    @apply antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
   body {
-    font-family: var(--font-karla);
     background-color: var(--color-teal-100);
   }
 }
