@@ -1,6 +1,6 @@
 function SinglePriceGrid() {
   return (
-    <main className="flex h-screen items-center justify-center">
+    <main className="flex min-h-screen flex-col items-center justify-center p-4">
       <article className="grid max-w-[312px] grid-cols-1 overflow-hidden rounded-lg shadow-2xl md:max-w-[610px] md:grid-cols-2">
         <header className="bg-white p-500 md:col-span-2 md:col-start-1">
           <h1 className="mb-300 text-preset-2 text-teal-500">
